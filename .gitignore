@@ -1,0 +1,35 @@
+# Compiled Python files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Input files
+input_data/*.pdf
+
+# Output files
+output_data/*.pdf
+
+# IDE-specific files and directories
+.idea/
+.vscode/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Ignore the __pycache__ directory from your output folder
+output_data/__pycache__/
